@@ -13,6 +13,7 @@ namespace BrianFaust\Lark;
 
 use GrahamCampbell\Manager\AbstractManager;
 use Illuminate\Contracts\Config\Repository;
+use BrianFaust\Ark\Client;
 
 class LarkManager extends AbstractManager
 {
@@ -51,9 +52,9 @@ class LarkManager extends AbstractManager
      *
      * @param array $config
      *
-     * @return mixed
+     * @return \BrianFaust\Ark\Client
      */
-    protected function createConnection(array $config): Lark
+    protected function createConnection(array $config): Client
     {
         return $this->factory->make($config);
     }
@@ -65,6 +66,6 @@ class LarkManager extends AbstractManager
      */
     protected function getConfigName(): string
     {
-        return 'laravel-lark';
+        return 'laravel-ark';
     }
 }
