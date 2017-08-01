@@ -17,13 +17,13 @@ use BrianFaust\Ark\Client;
 class LarkFactory
 {
     /**
-     * Make a new Lark client.
+     * Make a new Ark client.
      *
      * @param array $config
      *
-     * @return \BrianFaust\Lark\Lark
+     * @return \BrianFaust\Ark\Client
      */
-    public function make(array $config): Lark
+    public function make(array $config): Client
     {
         $config = $this->getConfig($config);
 
@@ -49,7 +49,7 @@ class LarkFactory
             }
         }
 
-        return array_only($config, ['key']);
+        return array_only($config, ['ip', 'port', 'nethash', 'version']);
     }
 
     /**
