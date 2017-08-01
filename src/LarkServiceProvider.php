@@ -22,7 +22,7 @@ class LarkServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/laravel-lark.php' => config_path('laravel-lark.php'),
+            __DIR__.'/../config/laravel-ark.php' => config_path('laravel-ark.php'),
         ]);
     }
 
@@ -31,7 +31,7 @@ class LarkServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/laravel-lark.php', 'laravel-lark');
+        $this->mergeConfigFrom(__DIR__.'/../config/laravel-ark.php', 'laravel-ark');
 
         $this->registerFactory();
 
