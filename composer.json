@@ -10,7 +10,7 @@
     }],
     "require": {
         "php": "^7.0",
-        "faustbrian/lark-php-client": "^1.0@dev",
+        "faustbrian/ark-php-client": "^1.0@dev",
         "graham-campbell/manager": "^2.4",
         "illuminate/support": "5.3.* || 5.4.* || 5.5.*"
     },
