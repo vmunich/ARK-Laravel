@@ -65,10 +65,10 @@ use BrianFaust\Lark\Facades\Lark;
 Lark::connection('main')->api('Account')->accounts()->create($params);
 
 // …is identical to writing this
-Lark::api('Account')->accounts()()->create($params);
+Lark::api('Account')->accounts()->create($params);
 
 // and is also identical to writing this.
-Lark::connection()->api('Account')->accounts()()->create($params);
+Lark::connection()->api('Account')->accounts()->create($params);
 
 // This is because the main connection is configured to be the default.
 Lark::getDefaultConnection(); // This will return main.
