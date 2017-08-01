@@ -11,8 +11,8 @@
 
 namespace BrianFaust\Lark;
 
-use InvalidArgumentException;
 use BrianFaust\Ark\Client;
+use InvalidArgumentException;
 
 class LarkFactory
 {
@@ -44,7 +44,7 @@ class LarkFactory
         $keys = ['ip', 'port', 'nethash', 'version'];
 
         foreach ($keys as $key) {
-            if (!array_key_exists($key, $config)) {
+            if (! array_key_exists($key, $config)) {
                 throw new InvalidArgumentException("Missing configuration key [$key].");
             }
         }

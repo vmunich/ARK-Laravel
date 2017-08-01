@@ -11,9 +11,9 @@
 
 namespace BrianFaust\Lark;
 
+use BrianFaust\Ark\Client;
 use GrahamCampbell\Manager\AbstractManager;
 use Illuminate\Contracts\Config\Repository;
-use BrianFaust\Ark\Client;
 
 class LarkManager extends AbstractManager
 {
