@@ -68,6 +68,6 @@ class LarkManager extends AbstractManager
      */
     protected function getConfigName(): string
     {
-        return 'laravel-ark';
+        return 'ark';
     }
 }
