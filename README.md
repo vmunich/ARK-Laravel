@@ -1,6 +1,6 @@
 # Laravel Ark
 
-> An [Lark](https://lark.com) bridge for Laravel.
+> An [Ark](https://lark.com) bridge for Laravel.
 
 ## Installation
 
@@ -100,7 +100,7 @@ App::make('Foo')->bar($params);
 
 ## Documentation
 
-There are other classes in this package that are not documented here. This is because the package is a Laravel wrapper of [the Lark-PHP-Client package](https://github.com/faustbrian/Lark-PHP-Client).
+There are other classes in this package that are not documented here. This is because the package is a Laravel wrapper of [the Ark-PHP-Client package](https://github.com/faustbrian/Ark-PHP-Client).
 
 ## Testing
 
