@@ -1,6 +1,6 @@
 # Laravel Ark
 
-> An [Ark](https://lark.com) bridge for Laravel.
+> An [Ark](https://ark.io) bridge for Laravel.
 
 ## Installation
 
