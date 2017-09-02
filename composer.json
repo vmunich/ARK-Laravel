@@ -11,7 +11,7 @@
     "require": {
         "php": "^7.0",
         "faustbrian/ark-php-client": "^0.1",
-        "graham-campbell/manager": "^2.4"
+        "graham-campbell/manager": "^3.0"
     },
     "require-dev": {
         "graham-campbell/testbench": "^3.3",
