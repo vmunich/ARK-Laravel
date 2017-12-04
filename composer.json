@@ -10,13 +10,13 @@
     }],
     "require": {
         "php": "^7.0",
-        "faustbrian/ark-php-client": "^0.3",
+        "faustbrian/ark-php-client": "^1.0",
         "graham-campbell/manager": "^3.0"
     },
     "require-dev": {
-        "graham-campbell/testbench": "^3.3",
-        "mockery/mockery": "^0.9.5",
-        "phpunit/phpunit": "^6.1"
+        "graham-campbell/testbench": "^4.0",
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^6.5"
     },
     "autoload": {
         "psr-4": {
