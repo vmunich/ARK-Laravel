@@ -9,7 +9,7 @@
         "homepage": "https://brianfaust.me"
     }],
     "require": {
-        "php": "^7.0",
+        "php": "^7.1",
         "faustbrian/ark-php-client": "^1.0",
         "graham-campbell/manager": "^3.0"
     },
