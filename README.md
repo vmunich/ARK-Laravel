@@ -1,4 +1,8 @@
-# Laravel Ark
+# ARK Laravel
+
+<p align="center">
+    <img src="https://github.com/faustbrian/ARK-Laravel/blob/master/banner.png" />
+</p>
 
 > An [Ark](https://ark.io) bridge for Laravel.
 
@@ -12,13 +16,13 @@ $ composer require faustbrian/laravel-ark
 
 ## Configuration
 
-Laravel Ark requires connection configuration. To get started, you'll need to publish all vendor assets:
+ARK Laravel requires connection configuration. To get started, you'll need to publish all vendor assets:
 
 ```bash
 $ php artisan vendor:publish --provider="BrianFaust\Lark\LarkServiceProvider"
 ```
 
-This will create a `config/laravel-lark.php` file in your app that you can modify to set your configuration. Also, make sure you check for changes to the original config file in this package between releases.
+This will create a `config/ark.php` file in your app that you can modify to set your configuration. Also, make sure you check for changes to the original config file in this package between releases.
 
 #### Default Connection Name
 
@@ -100,7 +104,7 @@ App::make('Foo')->bar($params);
 
 ## Documentation
 
-There are other classes in this package that are not documented here. This is because the package is a Laravel wrapper of [the Ark-PHP-Client package](https://github.com/faustbrian/Ark-PHP-Client).
+There are other classes in this package that are not documented here. This is because the package is a Laravel wrapper of [the Ark-PHP package](https://github.com/faustbrian/Ark-PHP).
 
 ## Testing
 
@@ -110,7 +114,7 @@ $ phpunit
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to Brian Faust at hello@brianfaust.me. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to hello@brianfaust.me. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 

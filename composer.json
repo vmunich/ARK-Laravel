@@ -1,6 +1,6 @@
 {
     "name": "faustbrian/laravel-ark",
-    "description": "An Ark bridge for Laravel",
+    "description": "An Ark bridge for Laravel.",
     "keywords": ["laravel", "ark", "crypto", "currency"],
     "license": "MIT",
     "authors": [{
@@ -10,7 +10,7 @@
     }],
     "require": {
         "php": "^7.1",
-        "faustbrian/ark-php-client": "^1.0",
+        "faustbrian/ark-php": "^1.0",
         "graham-campbell/manager": "^3.0"
     },
     "require-dev": {
