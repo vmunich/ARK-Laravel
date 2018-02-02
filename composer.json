@@ -1,6 +1,6 @@
 {
     "name": "faustbrian/ark-laravel",
-    "description": "An Ark bridge for Laravel.",
+    "description": "A Laravel bridge for ARK.",
     "keywords": ["laravel", "ark", "crypto", "currency"],
     "license": "MIT",
     "authors": [{
