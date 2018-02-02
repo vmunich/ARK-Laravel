@@ -4,7 +4,7 @@
     <img src="https://github.com/faustbrian/ARK-Laravel/blob/master/banner.png" />
 </p>
 
-> An [Ark](https://ark.io) bridge for Laravel.
+> A [Laravel](https://laravel.com) bridge for ARK.
 
 ## Installation
 
