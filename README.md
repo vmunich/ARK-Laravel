@@ -4,7 +4,7 @@
     <img src="https://github.com/faustbrian/ARK-Laravel/blob/master/banner.png" />
 </p>
 
-> A [Laravel](https://laravel.com) bridge for ARK.
+> An [ARK](https://github.com/ArkEcosystem/ark-node) bridge for Laravel.
 
 [![StyleCI](https://styleci.io/repos/113013419/shield?branch=master)](https://styleci.io/repos/113013419)
 [![Build Status](https://img.shields.io/travis/faustbrian/ARK-Laravel/master.svg?style=flat)](https://travis-ci.org/faustbrian/ARK-Laravel)
