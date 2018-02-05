@@ -44,6 +44,7 @@ return [
             'port'    => 'your-mainnet-port',
             'nethash' => 'your-mainnet-nethash',
             'version' => 'your-mainnet-version',
+            'networkAddress' => 0x17,
         ],
 
         'dev' => [
@@ -51,6 +52,7 @@ return [
             'port'    => 'your-devnet-port',
             'nethash' => 'your-devnet-nethash',
             'version' => 'your-devnet-version',
+            'networkAddress' => 0x1E,
         ],
 
     ],
