@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace BrianFaust\Lark;
 
-use BrianFaust\Ark\Config;
 use BrianFaust\Ark\Client;
+use BrianFaust\Ark\Config;
 use InvalidArgumentException;
 
 class LarkFactory
