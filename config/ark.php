@@ -40,6 +40,7 @@ return [
     'connections' => [
 
         'main' => [
+            'protocol' => 'http',
             'ip'      => 'your-mainnet-ip',
             'port'    => 'your-mainnet-port',
             'nethash' => 'your-mainnet-nethash',
@@ -48,6 +49,7 @@ return [
         ],
 
         'dev' => [
+            'protocol' => 'http',
             'ip'      => 'your-devnet-ip',
             'port'    => 'your-devnet-port',
             'nethash' => 'your-devnet-nethash',
