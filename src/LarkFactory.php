@@ -13,6 +13,7 @@ declare(strict_types=1);
 
 namespace BrianFaust\Lark;
 
+use BrianFaust\Ark\Config;
 use BrianFaust\Ark\Client;
 use InvalidArgumentException;
 
@@ -43,7 +44,7 @@ class LarkFactory
      */
     protected function getConfig(array $config): array
     {
-        $keys = ['ip', 'port', 'nethash', 'version', 'networkAddress'];
+        $keys = ['protocol', 'ip', 'port', 'nethash', 'version', 'networkAddress'];
 
         foreach ($keys as $key) {
             if (! array_key_exists($key, $config)) {
@@ -51,7 +52,7 @@ class LarkFactory
             }
         }
 
-        return array_only($config, ['ip', 'port', 'nethash', 'version', 'networkAddress']);
+        return array_only($config, ['protocol', 'ip', 'port', 'nethash', 'version', 'networkAddress']);
     }
 
     /**
@@ -63,6 +64,6 @@ class LarkFactory
      */
     protected function getClient(array $config): Client
     {
-        return new Client($config['ip'], $config['port'], $config['nethash'], $config['version'], $config['networkAddress']);
+        return new Client(new Config($config['ip'], $config['port'], $config['nethash'], $config['version'], $config['networkAddress']));
     }
 }
