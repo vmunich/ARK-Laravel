@@ -47,7 +47,7 @@ class LarkFactory
         $keys = ['protocol', 'ip', 'port', 'nethash', 'version', 'networkAddress'];
 
         foreach ($keys as $key) {
-            if (! array_key_exists($key, $config)) {
+            if (!array_key_exists($key, $config)) {
                 throw new InvalidArgumentException("Missing configuration key [$key].");
             }
         }

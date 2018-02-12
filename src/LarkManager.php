@@ -30,7 +30,7 @@ class LarkManager extends AbstractManager
      * Create a new Lark manager instance.
      *
      * @param \Illuminate\Contracts\Config\Repository $config
-     * @param \BrianFaust\Lark\LarkFactory              $factory
+     * @param \BrianFaust\Lark\LarkFactory            $factory
      */
     public function __construct(Repository $config, LarkFactory $factory)
     {

@@ -40,20 +40,20 @@ return [
     'connections' => [
 
         'main' => [
-            'protocol' => 'http',
-            'ip'      => 'your-mainnet-ip',
-            'port'    => 'your-mainnet-port',
-            'nethash' => 'your-mainnet-nethash',
-            'version' => 'your-mainnet-version',
+            'protocol'       => 'http',
+            'ip'             => 'your-mainnet-ip',
+            'port'           => 'your-mainnet-port',
+            'nethash'        => 'your-mainnet-nethash',
+            'version'        => 'your-mainnet-version',
             'networkAddress' => 0x17,
         ],
 
         'dev' => [
-            'protocol' => 'http',
-            'ip'      => 'your-devnet-ip',
-            'port'    => 'your-devnet-port',
-            'nethash' => 'your-devnet-nethash',
-            'version' => 'your-devnet-version',
+            'protocol'       => 'http',
+            'ip'             => 'your-devnet-ip',
+            'port'           => 'your-devnet-port',
+            'nethash'        => 'your-devnet-nethash',
+            'version'        => 'your-devnet-version',
             'networkAddress' => 0x1E,
         ],
 
