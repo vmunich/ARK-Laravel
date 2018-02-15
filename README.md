@@ -8,6 +8,7 @@
 
 [![StyleCI](https://styleci.io/repos/113013419/shield?branch=master)](https://styleci.io/repos/113013419)
 [![Build Status](https://img.shields.io/travis/faustbrian/ARK-Laravel/master.svg?style=flat)](https://travis-ci.org/faustbrian/ARK-Laravel)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/faustbrian/ark-laravel.svg)]()
 [![Latest Version](https://img.shields.io/github/release/faustbrian/ARK-Laravel.svg?style=flat)](https://github.com/faustbrian/ARK-Laravel/releases)
 [![License](https://img.shields.io/packagist/l/faustbrian/ARK-Laravel.svg?style=flat)](https://packagist.org/packages/faustbrian/ARK-Laravel)
 
