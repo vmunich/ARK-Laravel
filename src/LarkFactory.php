@@ -64,6 +64,6 @@ class LarkFactory
      */
     protected function getClient(array $config): Client
     {
-        return new Client(new Config($config['ip'], $config['port'], $config['nethash'], $config['version'], $config['networkAddress']));
+        return new Client(new Config($config['protocol'], $config['ip'], $config['port'], $config['nethash'], $config['version'], $config['networkAddress']));
     }
 }
