@@ -1,5 +1,5 @@
 {
-    "name": "faustbrian/ark-laravel",
+    "name": "vmunich/ark-laravel",
     "description": "An ARK bridge for Laravel.",
     "keywords": ["laravel", "ark", "crypto", "currency"],
     "license": "MIT",
