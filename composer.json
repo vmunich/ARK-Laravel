@@ -10,7 +10,7 @@
     }],
     "require": {
         "php": "^7.1",
-        "faustbrian/ark-php": "^1.0",
+        "vmunich/ark-php": "^1.0",
         "graham-campbell/manager": "^4.0"
     },
     "require-dev": {
